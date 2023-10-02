@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:3000/as2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./as2_files/___vscode_livepreview_injected_script"></script>
+    
+    <title>測試網頁</title>
+    <!-- 引入 Bootstrap 的 CSS 文件 -->
+    <link href="./as2_files/bootstrap.min.css" rel="stylesheet">
+    <!-- 您提供的自訂 CSS 樣式 -->
+    <style>
+        /* Bootstrap 導航欄 */
+        .navbar {
+            background-color: #808080 !important; /* 淺灰色背景 */
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #343a40 !important; /* 深灰色文字 */
+        }
+
+        .navbar-light .navbar-toggler-icon {
+            background-color: #343a40; /* 深灰色 Toggler 圖示 */
+        }
+
+        /* Banner 部分 */
+        #header {
+            background-color: #3498db; /* 寶藍色 Banner 背景 */
+            color: white; /* 白色文字 */
+            text-align: center;
+            padding: 100px 0;
+        }
+
+/* 區段 1, 2, 3 部分 */
+section {
+    background-color: #f5f5f5; /* 微淺的灰色區段背景 */
+    padding: 50px 0;
+}
+
+     .content-div {
+    background-color: #e0e0e0; /* 稍深的灰色內容背景 */
+    border-radius: 10px; /* 圓角 */
+    padding: 10px;
+    text-align: center; /* 文本水平居中 */
+    min-height: calc(200vh - 100px); /* 兩個頁面高度減去上下間距 */
+    margin: 0 20px; /* 左右留白 */
+    margin-top: 20px; /* 往下挪动 20px，根据需要调整 */
+}
+
+        /* 新增的樣式 */
+        .content-title {
+            background-color: transparent !important; /* 無色背景 */
+            color: #343a40 !important; /* 深灰色文字 */
+            padding: 20px; /* 調整 padding */
+            text-align: center; /* 文字置中 */
+            font-weight: bold; /* 加粗 */
+        }
+
+        .sub-title {
+            background-color: transparent !important; /* 無色背景 */
+            color: #343a40 !important; /* 深灰色文字 */
+            font-size: 14px; /* 調整字體大小 */
+        }
+
+        /* 區段 banner 背景色填入亮橘色 */
+        #section1 .banner-div,
+        #section2 .banner-div,
+        #section3 .banner-div {
+            background-color: #ff9933; /* 亮橘色背景 */
+            height: 100px; /* 將區段 banner 的高度設為 100px */
+            padding: 100px 0; /* 上下 padding 設為 100px，左右 padding 保持不變 */
+            color: white; /* 文字顏色設為白色 */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Banner 部分 -->
+    <header id="header">
+        <div class="container">
+            <h1>這是Banner</h1>
+        </div>
+    </header>
+
+    <!-- Bootstrap 導航欄 -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/as2.html#header">首頁</a> <!-- 新增首頁連結 -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/as2.html#section1">區段 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/as2.html#section2">區段 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:3000/as2.html#section3">區段 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 區段 1 部分 -->
+    <section id="section1">
+        <div class="container">
+            <div class="banner-div">
+                <h2 class="text-center">區段 1 Banner</h2>
+            </div>
+            <div class="content-div">
+                <h3 class="content-title">區段 1 內容</h3>
+                <p>這是區段 1 的內容，隨意填寫。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 區段 2 部分 -->
+    <section id="section2">
+        <div class="container">
+            <div class="banner-div">
+                <h2 class="text-center">區段 2 Banner</h2>
+            </div>
+            <div class="content-div">
+                <h3 class="content-title">區段 2 內容</h3>
+                <p>這是區段 2 的內容，隨意填寫。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 區段 3 部分 -->
+    <section id="section3">
+        <div class="container">
+            <div class="banner-div">
+                <h2 class="text-center">區段 3 Banner</h2>
+            </div>
+            <div class="content-div">
+                <h3 class="content-title">區段 3 內容</h3>
+                <p>這是區段 3 的內容，隨意填寫。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 引入 Bootstrap 的 JavaScript 文件 -->
+    <script src="./as2_files/bootstrap.min.js.下載"></script>
+    <!-- 自訂的 JavaScript 代碼 -->
+    <script>
+        // 平滑滾動效果
+        $(document).ready(function () {
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+                var target = this.hash;
+                var $target = $(target);
+                $('html, body').animate({
+                    'scrollTop': $target.offset().top
+                }, 1000, 'swing');
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
